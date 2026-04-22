@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Zheng Benyi</title>
+    <meta name="description" content="Project detail — Zheng Benyi's portfolio." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2218%22 fill=%22%23111111%22/%3E%3Ctext x=%2250%25%22 y=%2252%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial, Helvetica, sans-serif%22 font-size=%2228%22 fill=%22white%22%3EZB%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Back to home">HOME</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="project-detail" id="project-detail">
+        <a class="back-link" href="index.html#projects">← Back to Projects</a>
+
+        <div class="project-header">
+          <p class="section-label" id="pd-label"></p>
+          <h1 id="pd-title"></h1>
+          <div class="project-tags" id="pd-tags"></div>
+        </div>
+
+        <div class="project-body" id="pd-body"></div>
+
+        <div class="project-images" id="pd-images"></div>
+
+        <div class="project-links" id="pd-links"></div>
+      </main>
+    </div>
+
+    <script src="projects-data.js"></script>
+    <script src="project.js"></script>
+  </body>
+</html>

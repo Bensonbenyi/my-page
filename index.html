@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> 郑本壹 | Personal Homepage</title>
+    <title>郑本壹 | Portfolio</title>
     <meta
       name="description"
-      content="Minimal personal homepage with selected work, profile, and contact information."
+      content="Zheng Benyi's portfolio — selected coding projects and products."
     />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2218%22 fill=%22%23111111%22/%3E%3Ctext x=%2250%25%22 y=%2252%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial, Helvetica, sans-serif%22 font-size=%2228%22 fill=%22white%22%3EZB%3C/text%3E%3C/svg%3E" />
     <link rel="stylesheet" href="styles.css" />
@@ -14,9 +14,8 @@
   <body>
     <div class="site-shell">
       <header class="site-header fade-in">
-        <a class="brand" href="#home" aria-label="Go to home">ZB</a>
+        <a class="brand" href="#home" aria-label="Go to home">HOME</a>
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -24,74 +23,22 @@
 
       <main>
         <section class="hero section-visible" id="home">
-          <p class="eyebrow fade-in fade-in-delay-1">Personal Homepage</p>
+          <p class="eyebrow fade-in fade-in-delay-1">Portfolio</p>
           <h1 class="fade-in fade-in-delay-2">Zheng Benyi</h1>
           <p class="hero-copy fade-in fade-in-delay-3">
             厦门大学大二软件工程系，热爱vibe coding
             熟悉Agent框架和AI应用开发，喜欢探索前沿技术和创新项目
           </p>
-          <a class="cta fade-in fade-in-delay-4" href="#projects">View Work</a>
-        </section>
-
-        <section class="content-section reveal" id="about">
-          <div class="section-heading">
-            <p class="section-label">About</p>
-            <h2>  个人简介和技能介绍</h2>
-          </div>
-          <div class="section-body split-layout">
-            <p>
-              我是一个乐于交流沟通、善于合作的人，平时喜欢vibe coding
-              深度使用Codex、Claude Code、cursor等等这些工具提升效率
-              我很注重对项目整体架构、设计的理解。
-            </p>
-            <p>
-              我熟悉基于 ReAct 框架与 LangGraph 的 AI Agent 架构设计
-              能够结合 AST 与 embedding 实现代码结构级检索
-              并通过 LLM 进行高语义保真的上下文压缩与本地 JSON memory 管理
-              具备扎实的 Python 能力，精通 asyncio 异步并发
-              能够使用 Typer 与 Rich 构建高质量 CLI/TUI 智能体应用。
-
-            </p>
-          </div>
+          <a class="cta fade-in fade-in-delay-4" href="#projects">View Projects</a>
         </section>
 
         <section class="content-section reveal" id="projects">
           <div class="section-heading">
             <p class="section-label">Projects</p>
-            <h2>个人项目简介</h2>
+            <h2>个人作品集</h2>
           </div>
-          <div class="project-grid">
-            <article class="project-card">
-              <p class="project-index">01</p>
-              <h3>Coding-Agent</h3>
-              <p>
-                基于 ReAct 框架与 LangGraph 的 AI Agent 架构设计
-                结合 AST 与 embedding 实现代码结构级检索
-                通过 LLM 进行高语义保真的上下文压缩与本地 JSON memory 管理
-                使用 Typer 与 Rich 构建高质量 CLI/TUI 智能体应用。
-              </p>
-              <a href="https://example.com" target="_blank" rel="noreferrer">Open Project</a>
-            </article>
-
-            <article class="project-card">
-              <p class="project-index">02</p>
-              <h3>Product Launch Page</h3>
-              <p>
-                A high-conversion landing page using editorial typography,
-                minimal animation, and a performance-first implementation.
-              </p>
-              <a href="https://example.com" target="_blank" rel="noreferrer">Open Project</a>
-            </article>
-
-            <article class="project-card">
-              <p class="project-index">03</p>
-              <h3>Design System Notes</h3>
-              <p>
-                A lightweight documentation space for design tokens, component
-                usage, and interface consistency across teams.
-              </p>
-              <a href="https://example.com" target="_blank" rel="noreferrer">Open Project</a>
-            </article>
+          <div class="project-grid" id="project-grid">
+            <!-- Rendered by script.js -->
           </div>
         </section>
 
@@ -109,6 +56,7 @@
       </main>
     </div>
 
+    <script src="projects-data.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
