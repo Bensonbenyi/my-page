@@ -29,13 +29,11 @@ const PROJECTS = [
   },
   {
     index: "02",
-    title: "Product Launch Page",
+    title: "example",
     summary:
-      "A high-conversion landing page using editorial typography, minimal animation, and a performance-first implementation.",
+      "",
     detail:
-      "<p>一个面向产品发布的高转化率着陆页，强调编辑级排版与极简动效。</p>" +
-      "<p>Performance-first 实现，Lighthouse 评分全项 95+，首屏加载 &lt;1s。采用关键 CSS 内联、图片懒加载与字体预加载策略。</p>" +
-      "<p>响应式设计覆盖移动端至 4K 屏幕，暗色模式自动适配系统偏好。</p>",
+      "",
     tags: ["HTML", "CSS", "JavaScript", "Performance", "Responsive"],
     images: [],
     links: [
@@ -44,12 +42,11 @@ const PROJECTS = [
   },
   {
     index: "03",
-    title: "Design System Notes",
+    title: "example",
     summary:
-      "A lightweight documentation space for design tokens, component usage, and interface consistency across teams.",
+      "",
     detail:
-      "<p>轻量级设计系统文档站，涵盖 Design Token 定义、组件用法与跨团队界面一致性规范。</p>" +
-      "<p>支持实时预览与版本对照，Markdown 驱动的内容管理，零构建依赖。</p>",
+      "",
     tags: ["Design System", "Documentation", "Tokens", "Markdown"],
     images: [],
     links: [
